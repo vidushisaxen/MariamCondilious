@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+          }
+        }
+      }
+    </script>
+</head>
+<body>
+    <header class="text-gray-400 bg-gray-900 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-xxl"><a href="index.html">Mariam Condilious</a></span>
+          </a>
+          <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 hover:text-white"><a href="admission.html">Admissions</a></a>
+            <a class="mr-5 hover:text-white"><a href="exams.html">Examinations</a></a>
+            <a class="mr-5 hover:text-white"><a href="kidscorner.html">Kid's Corner</a></a>
+            <a class="mr-5 hover:text-white"><a href="fees.html">Fee structure</a></a>
+            <a class="mr-5 hover:text-white"><a href="gallery.html">Gallery</a></a>
+            <a class="mr-5 hover:text-white"><a href="events.html">Events Calender</a></a>
+            <a class="mr-5 hover:text-white"><a href="staffmembers.html">Staff members</a></a>
+          </nav>
+          <!-- <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Button
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button> -->
+        </div>
+      </header>
+      
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <!-- <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Gallery</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Collection of photos from various programmes and fests happened in school.</p> -->
+            <h2 class="font-small leading-tight text-2xl mt-5 mx-6 mb-2 text-blue-600 ">Gallery </h2>
+    <p class="ml-0">
+        Collection of photos from various programmes and fests happened in school.
+          </div>
+          <div class="flex flex-wrap -m-4 text-center">
+            <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                <h2 class="title-font font-medium text-3xl text-gray-900">Programmes</h2>
+                <!-- <p class="leading-relaxed">Downloads</p> -->
+                <button class="inline-flex items-center bg-blue-600 text-white border-0 py-1 px-3 focus:outline-none hover:bg-blue-500 rounded text-base mt-10 md:mt-5"><a href="programmes.html">View</a>
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                      <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                  </button> 
+              </div>
+            </div>
+            <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                <h2 class="title-font font-medium text-3xl text-gray-900">Fests</h2>
+                <button class="inline-flex items-center bg-blue-600 text-white border-0 py-1 px-3 focus:outline-none hover:bg-blue-500 rounded text-base mt-10 md:mt-5"><a href="fests.html">View</a>
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                      <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                  </button> 
+              </div>
+            </div>
+            <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                <h2 class="title-font font-medium text-3xl text-gray-900">Children</h2>
+                <button class="inline-flex items-center bg-blue-600 text-white border-0 py-1 px-3 focus:outline-none hover:bg-blue-500 rounded text-base mt-10 md:mt-5"><a href="students.html">View</a>
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                      <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                  </button> 
+              </div>
+            </div>
+            <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+              <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                <h2 class="title-font font-medium text-3xl text-gray-900">Staff </h2>
+                <button class="inline-flex items-center bg-blue-600 text-white border-0 py-1 px-3 focus:outline-none hover:bg-blue-500 rounded text-base mt-10 md:mt-5"><a href="staff.html">View</a>
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                      <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                  </button> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>
